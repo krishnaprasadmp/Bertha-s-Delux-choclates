@@ -1,0 +1,453 @@
+/* Name: Krishna Prasad M P id:jadrn027 */
+
+* { margin:0; padding:0;}
+
+
+body {
+  background: url('images/choc6.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  font-family: Helvetica, Arial, Sans-Serif;
+  } 
+ .wrapper {
+    padding : 3px 0;
+    padding-left: 5px;
+    margin:0 auto;
+    border:none;
+    color: #eee;
+    background:#886859;
+    width: 940px;
+    position: relative;
+    height: 70px;
+  }
+    .wrapper li {
+    list-style:none;
+    margin:0 auto;
+    display:inline;
+    padding: 7px 52px;
+    position: relative;
+    top: 25px;
+    }
+    .wrapper li a {
+    text-decoration:none;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'MuseoSans5',arial,sans-serif;
+    margin:0;
+    line-height: 1;
+    border-right: :1px solid #886859;
+    color: white;
+    padding-left:5px;
+    }
+    .main_body {
+       padding-top: 250px;
+    }
+    .header {
+    	text-align: center;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	color: white;
+      margin: 0 auto;
+    }
+
+    .button {
+     background-color: antiquewhite;
+     color: white;
+     padding: 14px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-family: Helvetica, Arial, Sans-Serif;
+     margin: 0 auto;
+     font-size: 16px;
+   }
+   .b_field {
+   	position: relative;
+   	top: 20px;
+   }
+   .cart_image {
+    height: 45px;
+   }
+   #cartDisplay {
+    float: right;
+    padding-right: 15px;
+    position: relative;
+    top: -15px;
+    color: white;
+    font-family: 'MuseoSans5',arial,sans-serif;
+   }
+   .cart_count {
+    position: relative;
+    bottom: 10px;
+    color: #eee;
+    right: 5px;
+   }
+   #choclate_list {
+    position: relative;
+    max-width: 1100px;
+    min-width: 1100px;
+    margin: 0 auto;   
+    border: 2px solid maroon;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #EDEFF0;
+    
+}
+
+.menu_li {
+  text-decoration: underline;
+  color: #B84D70;
+  font-weight: bold;
+}
+
+#menu {
+   padding : 3px 0;
+    padding-left: 5px;
+    margin:0;
+    border:none;
+    color: #eee;
+    width: 1100px;
+    min-width: 1100px;
+    position: relative;
+    height: 50px;
+    top: 20px;
+}
+ 
+ #menu li {
+    list-style:none;
+    margin:0 auto;
+    display:inline;
+    padding: 7px 10px;
+    position: relative;
+    top: 25px;
+ }
+
+ #menu  li a {
+    text-decoration:none;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'MuseoSans5',arial,sans-serif;
+    margin:0;
+    line-height: 1;
+    color: white;
+    padding-left:5px;
+    }
+
+#prod_choc_list {
+  display: inline;
+  max-width: 600px;
+  min-width: 600px;
+  height: 100%;
+  padding: 10px 10px 0 0;
+}
+
+#map {
+  float: right;
+  padding-right: 5px;
+  height: 200px;
+  width: 450px;
+}
+
+#product_img {
+  float: left;
+  height: 150px;
+  width: 150px;
+  padding: 5px 15px 5px 5px;
+}
+
+#products_table {
+  min-width: 600px;
+}
+
+.add_cart {
+ margin: 8px 8px 8px 8px;
+padding-top: 8px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 8px;
+position: relative;
+width: 150px;
+background-color: white;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-left-style: solid;
+border-left-width: 1px;
+border-right-style: solid;
+border-right-width: 1px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-top-width: 1px;
+font-family: helvetica,arial,sans-serif;
+font-size: 18px;
+line-height: 11px;
+bottom: 10px;
+float: right;
+}
+
+.query_box {
+  width: 40px;
+  padding: 3px;
+  margin: 0;
+}
+
+.query_label {
+  width: 60px;
+  margin: 0;
+  padding: 0;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.h_contact {
+  text-align: left;
+}
+
+.imgabout {
+  float: left;
+  padding: 5px 10px 5px 5px;
+}
+
+.p_left {
+  text-indent: 0;
+}
+
+a:link { 
+  color: #384047;
+    text-decoration: none;
+}
+     
+a:visited {
+  color: #384047;
+    text-decoration: none; 
+}
+
+#menu li a { 
+  color: #384047;
+  text-decoration: none;
+}
+
+
+
+.menu_li {
+  text-decoration: underline;
+  color: #B84D70;
+  font-weight: bold;
+}
+
+h1 {
+    font-family: times new roman;
+    color: #384047;
+    text-align:center;
+    padding: 0 5px 20px 5px;
+}
+
+#mainh {
+  text-align: center;
+  color:  #BF5F7E; /*#B84D70;*/
+  font-size: 4.5em;
+  padding: 50px 0 15px 0;
+}
+
+h2, h3 {
+    font-family: times new roman;
+    color: #384047;
+    text-align:left;
+    padding: 5px;
+}
+
+p { 
+    text-align:justify;
+    margin: 0 0 10px 0; 
+    padding: 5px; 
+    text-indent:40px;
+}
+.choose {
+  position: relative;
+  bottom: 45px;
+}
+#whole_body {
+  background-color: #EDEFF0;
+  width: 1100px;
+position: relative;
+margin: 0 auto;
+top: 1.1px;
+}
+
+#form1 {
+    margin: 0 auto;
+padding-left: 65px;
+padding-top: 20px;
+}
+.firstcol {
+
+}
+.dropdown,#o_quant,#o_reset,#email,#o_addtocart,.orderbuttons,.deletebutton,#fname,#lname,#areacode,#hprefix,#hphone,#adr1,#adr2,#city,#state,#s_zip
+,.label10,.dropdown1,#b_zip,#confirm,#bottom_line,#hareacode,#rst,#validm,#validy,#cvv1,#cardn,#nameonc,#hareacode {
+margin: 2px 2px 2px 2px;
+padding-top: 5px;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 4px;
+position: relative;
+width: 280px;
+background-color: white;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-left-style: solid;
+border-left-width: 1px;
+border-right-style: solid;
+border-right-width: 1px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-top-width: 1px;
+font-family: helvetica,arial,sans-serif;
+font-size: 18px;
+line-height: 11px;
+}
+#o_quant,#o_reset,#o_addtocart {
+  width:110px;
+}
+#dynamic {
+  padding-top: 5px;
+padding-left: 5px;
+}
+
+.frow {
+  padding-top: 5px;
+}
+.displaycart {
+    padding-left: 45px;
+    padding-top: 10px;
+}
+.orderbuttons {
+   width: 180px;
+position: relative;
+left: 45px;
+top: 5px;
+}
+.ship {
+  position: relative;
+  top: 5px;
+}
+.qty {
+  position: relative;
+  left: 11px;
+}
+.price {
+  position: relative;
+  left: 70px;
+}
+.val {
+  position: relative;
+  left: 20px;
+  padding-top: 5px;
+}
+.p_row {
+  position: relative;
+  left: 75px;
+  padding-top: 5px;
+}
+.deletebutton {
+  position: relative;
+  left: 100px;
+  width: 100px;
+}
+#fname,#lname,#areacode,#hprefix,#hphone,#adr1,#adr2,#city,#state,#s_zip
+.label10,.dropdown1,#b_zip,#confirm,#bottom_line,#hareacode,#email,#cardn {
+    width: 170px;
+  }
+#hprefix, #hphone, #hareacode {
+  width: 50px;
+}
+#city, #state, #s_zip, #b_zip {
+  width: 100px;
+}
+.dropdown1 {
+  width: 200px;
+}
+#validm, #validy, #cvv1 {
+  width: 40px;
+}
+#confirm, #rst {
+  width: 80px;
+}
+#orderform {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.error {
+    border:  1px solid red;   
+    background-color: #FEE;  
+    }
+#message_line {
+    height: 50px;
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    }  
+
+#confirm_page {
+  padding: 0 20px 20px 20px;
+}
+
+.confirm_table {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 650px;
+  min-width: 650px;
+  word-wrap: break-word;
+  font-family: helvetica,arial,sans-serif;
+  font-size: 16px;
+}
+
+
+.confirm_table td {
+  padding: 5px;
+}
+
+.confirm_table th {
+  padding: 5px;
+  background-color: darkseagreen;
+}
+
+#c_a {
+  text-decoration: underline;
+}
+
+#c_a2 {
+  text-decoration: underline;
+}
+#logo_img {
+float: right;
+}
+.p1 {
+  padding-left: 38px;
+}
+.shipping {
+  padding-top: 55;
+  position: relative;
+  left: 195px;
+  background-color: #EDEFF0;
+}
+.h1_p  {
+  padding-top: 11px;
+}
+.table_report {
+  margin: 0 auto;
+  padding-top: 10px;
+}
